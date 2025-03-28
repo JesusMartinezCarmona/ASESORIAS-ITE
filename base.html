@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITE ASESORIAS - {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <img src="C:\Users\emely\OneDrive\Documentos\ASESORIAS\logo_left.png" alt="Logo ITE" class="logo">
+        <img src="C:\Users\emely\OneDrive\Documentos\ASESORIAS\logo_rigth.png" alt="Asesorías" class="logo">
+    </header>
+    
+    <main class="main-container">
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
