@@ -58,3 +58,20 @@ body {
     width: 100%;
 }
 
+/* Estilo para las imágenes en las esquinas */
+.top-left, .top-right {
+    position: absolute;
+    top: 20px;
+    width: 50px; /* Puedes ajustar el tamaño según lo que necesites */
+    height: auto;
+}
+
+.top-left {
+    left: 20px; /* Ubica la imagen en la esquina superior izquierda */
+}
+
+.top-right {
+    right: 20px; /* Ubica la imagen en la esquina superior derecha */
+}
+
+
